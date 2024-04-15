@@ -4,7 +4,7 @@ function generateRandomNum(num) {
 //Number from O to 1
 
 const fortuneOutcome = {
-    Info: [ 'great fortune', 'new opportunity', 'change coming', 'something terrible', 'lose in the future'],
+    info: [ 'great fortune', 'new opportunity', 'change coming', 'something terrible', 'lose in the future'],
     advice : ['celebrate', 'enjoy new beginnings', 'trust no one', ' believe in yourself']
 }
 
@@ -34,6 +34,6 @@ function formatFortune(fortune) {
 //can include emojis and other stuff to make it more fun
 
 formatFortune(personalOutcome);
-console.log(formatFortuen);
+console.log(formatFortune);
 
 //Somehow figure out Node and test the JS file

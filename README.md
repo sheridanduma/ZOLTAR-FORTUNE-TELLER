@@ -1,8 +1,6 @@
-Title : Zoltar Fortune Teller
-Description : As part of the Portfolio Project Mixed Messages on Codecademy, I decdied to do a Zoltar Fortune Teller inspired code.
-Each time a user uses the program, they will receive a randomzied fortune.
-Features :
-How to Use :
-Technologies : Visual Code + GitHub
-Collaborators :
-License :
+ZOLTAR FORTUNE TELLER
+
+My first off-platform JavaScript coding project, Zoltar Fortune Teller, is an automated random supply of fortunes. No matter what the occasion shall be, this program will deliver fortunes at any given moment.
+
+Visual Code + GitHub
+

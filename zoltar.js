@@ -4,7 +4,7 @@ function generateRandomNum(num) {
 //Number from O to 1
 
 const fortuneOutcome = {
-    fortunelInfo: [ 'great fortune', 'new opportunity', 'change coming', 'something terrible', 'lose in the future'],
+    Info: [ 'great fortune', 'new opportunity', 'change coming', 'something terrible', 'lose in the future'],
     advice : ['celebrate', 'enjoy new beginnings', 'trust no one', ' believe in yourself']
 }
 
@@ -16,14 +16,11 @@ for (let stuff in fortuneOutcome) {
 
     //object properties that customize the message by adding personal stuff
     switch(stuff) {
-        case 'fortunelInfo':
-            personalOutcome.push(`I see ${fortuneInfo[stuff][optionIdx]}.`)
+        case 'info':
+            personalOutcome.push(`I see ${info[stuff][optionIdx]}.`)
             break
             case 'advice':
-                personalOutcome.push(`You are having ${fortuneInfo[stuff][optionIdx]}.`)
-            break
-            case 'advice':
-                personalOutcome.push(`You should ${fortuneInfo[stuff][optionIdx]}.`)
+                personalOutcome.push(`You should ${info[stuff][optionIdx]}.`)
             break
             default:
                 personalOutcome.push('Not enough info, try again !')
